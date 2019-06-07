@@ -13,4 +13,9 @@
 /init.qcom.usb.sh\
 %{nil}
 
+%define android_config \
+#define WANT_ADRENO_QUIRKS 1\
+%{nil}
+ 
+
 %include rpm/dhd/droid-hal-device.inc
